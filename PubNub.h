@@ -14,7 +14,7 @@
 
 
 #if defined(PubNub_Ethernet)
-#include <Ethernet.h>
+#include <EthernetV2_0.h>
 #define PubNub_BASE_CLIENT EthernetClient
 
 #elif defined(PubNub_WiFi)
